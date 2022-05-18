@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row vh-100 justify-content-center align-items-center my-5">
+        <div class="col-md-7 col-sm-8 mb-5">
+          <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-11 col-12">
+              <div class="card shadow-sm text-center">
+                <img
+                  class="card-img-top img-fluid"
+                  src="images/illustration-hero.svg"
+                  alt=""
+                />
+                <div class="card-body pt-4 pt-md-5 px-md-5 px-3 pb-md-4 pb-2">
+                  <h3 class="fw-bolder mb-3 text-primary">Order Summary</h3>
+                  <p class="fw-light text-secondary desc mx-auto">
+                    You can now listen to millions of songs, audiobooks, and
+                    podcasts on any device anywhere you like!
+                  </p>
+                  <div
+                    class="d-flex p-3 bg-light align-items-center gap-3 rounded-3 mb-4"
+                  >
+                    <img src="images/icon-music.svg" class="musicIcon" alt="" />
+                    <div>
+                      <span class="fw-bolder text-primary">Annual Plan</span>
+                      <p class="mb-0 text-secondary">$59.99/year</p>
+                    </div>
+                    <a
+                      href="#"
+                      class="ms-auto text-success small fw-bold changeBtn"
+                      >Change</a
+                    >
+                  </div>
+                  <div class="d-flex flex-column">
+                    <button
+                      class="btn btn-success rounded-3 py-2 fw-bold shadow-lg mb-3 border-0 myBtn"
+                    >
+                      <small>Proceed to Payment</small>
+                    </button>
+                    <button class="btn fw-bold text-secondary myBtn2">
+                      <small>Cancel Order</small>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Qui3tK1D</a>.
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
